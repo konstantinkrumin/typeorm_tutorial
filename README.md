@@ -1,7 +1,3 @@
-# Awesome Project Build with TypeORM
+# TypeORM Tutorial
 
-Steps to run this project:
-
-1. Run `npm i` command
-2. Setup database settings inside `data-source.ts` file
-3. Run `npm start` command
+This project contains basic TypeORM set up and Express server with requests that apply changes to the database
