@@ -1,0 +1,11 @@
+-- DROP EXISTING TABLES --
+npm run typeorm schema:drop
+
+-- GENERATE SCHEMA FOR MIGRATION --
+npm run typeorm migration:generate --  -n create-schema
+
+-- RUN MIGRATION --
+npm run typeorm migration:run
+
+-- TO REVERT MIGRATION --
+npm run typeorm migration:revert
